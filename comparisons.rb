@@ -118,6 +118,11 @@ puts loves_to_play || loves_dog_park
 # Determine if the dog loves to play and is a puppy
 puts loves_to_play && is_a_puppy
 
+# We can also create a variable is_a_puppy or compare the age of the dog to a puppy age
+puts loves_to_play && age <= 1
+is_a_puppy = age <= 1
+puts loves_to_play && is_a_puppy
+
 # What did your final line of code evaluate to? Why do you think that is? Explain.
 # ANSWER: There is no variable is_a_puppy. We get a error because the variable `is_a_puppy`
 # does not exist.
